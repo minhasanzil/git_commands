@@ -1,3 +1,5 @@
+<h2> MOST IMPORTANT COMMANDS
+
 <p> git config user.name 'username' 			// config username for yout git version contrl
 
 <p> git config user.email 'email'			 // config email for your git version control
@@ -12,17 +14,42 @@
 
 <p> git commit 				// commit changes
 
-<p> git push 				//push to remote repo
+<p> git push http://address.git 				//push to remote repo
 
-<p> git pull				// pul latest from remote repo
+<p> git pull htp://address.git			// pull latest from remote repo
 
-<p> git clone				 // clone repo into a new directory
+<p> git clone http://address.git				 // clone repo into a new directory
 
 <p> git remote set-url origin http://address.git  	//add link to your remote repo
 
 <p> git remote -v 				// chek which remote repo are you saving with
 
 <p> git push origin master 			// push to the remote repo
+
+<p> git log -<limit> 				// eg: git log limit -5 **limits log by 5 commits**
+
+<p> git log -p 					// prints all the changes made with user
+
+<p> git diff 				//show unstaged changes
+
+
+<h2> UNDO CHANGES
+
+<p> git revert <commit> 		//Create new commit that undoes all of the changes made in <commit>, then apply it to the current branch.
+
+
+<h2> REMOTE REPOSITORIES
+
+<p> git remote add <name> <url>			//Create a new connection to a remote repo. After adding a remote, you can use <name> as a shortcut for <url> in other commands.
+
+<p> git fetch <remote> <branch>			// fetches a specific branch from repo
+
+<p> git push http://address.git 				//push to remote repo
+
+<p> git pull htp://address.git			// pull latest from remote repo
+
+<p> git clone http://address.git				 // clone repo into a new directory
+
 
 
 
